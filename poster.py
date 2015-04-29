@@ -16,7 +16,7 @@ if not really_standup:
 
 
 url = open("/home/tool/secret_webhook.url", "r").read().strip()
-msg = "It's {} and time for <https://tinyurl.com/pearbot|standup!>".format(uk_strtime)
+msg = "<!everyone>! It's {} and time for <https://tinyurl.com/pearbot|standup!>".format(uk_strtime)
 
 payload = json.dumps({"text": msg,
                       "username": "robot-uprising",
