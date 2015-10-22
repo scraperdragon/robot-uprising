@@ -9,7 +9,7 @@ utc_time = datetime.datetime.now()
 uk_datetime = pytz.utc.localize(utc_time).astimezone(bst)
 uk_strtime = uk_datetime.strftime("%H:%M")
 
-really_standup = uk_datetime.hour == 9 and uk_datetime.minute > 45
+really_standup = uk_datetime.hour == 9
 if not really_standup:
     print "Not standup yet..."
     exit()

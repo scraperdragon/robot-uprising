@@ -20,13 +20,13 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
- 53 08  *   *  mon tool/poster.py
- 53 09  *   *  mon tool/poster.py
- 53 08  *   *  tue tool/poster.py
- 53 09  *   *  tue tool/poster.py
- 53 08  *   *  wed tool/poster.py
- 53 09  *   *  wed tool/poster.py
- 53 08  *   *  thu tool/poster.py
- 53 09  *   *  thu tool/poster.py
- 53 08  *   *  fri tool/poster.py
- 53 09  *   *  fri tool/poster.py
+# 53 08  *   *  mon tool/poster.py
+# 53 09  *   *  mon tool/poster.py
+# 53 08  *   *  tue tool/poster.py
+# 53 09  *   *  tue tool/poster.py
+# 53 08  *   *  wed tool/poster.py
+# 53 09  *   *  wed tool/poster.py
+ 27 08  *   *  thu tool/poster.py
+ 27 09  *   *  thu tool/poster.py
+# 53 08  *   *  fri tool/poster.py
+# 53 09  *   *  fri tool/poster.py
